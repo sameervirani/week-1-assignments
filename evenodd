@@ -1,0 +1,11 @@
+number = (input("Enter an integar"))
+remainder = number % 2
+
+if remainder == 0:
+  print("Even")
+
+elif remainder == 1:
+  print("Odd")
+
+else:
+  print("Not a whole number")
